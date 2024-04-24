@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd 
-from gensim.models import Word2Vec
-from gensim.utils import simple_preprocess
-import numpy as np
-from scipy.spatial.distance import cdist
+
 
 
 
