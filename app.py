@@ -50,7 +50,7 @@ def main():
     st.title("Trouver la Garentie la plus proche ")
     df = pd.read_json(jp)
     
-    choix= st.selectbox("Sélectionnez une option  :", ["","search using comparaison with small model embeddings","search using comparaison with small model embeddings"])
+    choix= st.selectbox("Sélectionnez une option  :", ["","search using comparaison with small model embeddings","search using comparaison with large model embeddings"])
         
 
 
